@@ -1,0 +1,16 @@
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+border-bottom: 1px solid gray;
+
+}
+
+.usercontainer{
+    margin: 10px;
+    max-height: 500px;
+    background-color: #383838;
+    overflow-y: scroll;
+    padding: 20px;
+    border-radius: 5px;
+}

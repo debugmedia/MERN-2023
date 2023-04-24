@@ -1,0 +1,27 @@
+.acctitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+
+.acccontainer{
+ border: 1px solid gray;
+    border-radius: 5px;
+    margin: 15px;
+    max-width: 100%;
+}
+
+.accview:hover{
+    cursor: pointer;
+  
+}
+
+.accdetails{
+    padding: 10px;
+    break-after: auto;
+}
+
+.faq{
+    max-width: 700px;
+}

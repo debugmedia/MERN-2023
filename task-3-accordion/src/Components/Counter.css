@@ -1,0 +1,8 @@
+/* .btn{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.btnIncrement{
+    margin-right: 15px;
+}
