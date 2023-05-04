@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Darumadrop One";
+}
+
+body {
+  background: linear-gradient(45deg, rgb(3, 34, 39), rgb(14, 25, 41));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: rgb(41, 41, 41);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}

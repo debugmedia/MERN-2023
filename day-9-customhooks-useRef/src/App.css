@@ -1,0 +1,86 @@
+@import url("./styles/variable.css");
+
+form {
+  background-color: var(--form-bg);
+  max-width: 400px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.196);
+}
+
+form h1 {
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 40px;
+}
+
+.caption {
+  font-size: 16px;
+  color: rgb(163, 163, 163);
+  margin-bottom: 30px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-section input {
+  background-color: var(--form-bg);
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  outline: none;
+}
+
+.input-section input:focus {
+  border-bottom: 1px solid black;
+}
+
+.input-section select {
+  border: 1px solid #ccc;
+}
+
+.input-section label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.radio-groups label {
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.dropdown-section label,
+.radio-groups label {
+  margin-bottom: 12px;
+}
+
+.radio-groups .radio-buttons {
+  font-weight: normal;
+}
+
+form button {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form button:hover {
+  background-color: var(--secondary-color);
+}
+
+.danger {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

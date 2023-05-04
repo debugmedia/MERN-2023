@@ -1,0 +1,19 @@
+.search-list-container {
+  /* background-color: white; */
+  height: 380px;
+  overflow: auto;
+}
+
+.search-list-container .search-items {
+  background-color: #374051;
+  margin-bottom: 5px;
+  padding: 20px;
+  border: 4px;
+  color: white;
+  display: flex;
+  word-break: break-all;
+}
+
+.search-list-container .search-items .title {
+  margin-left: 10px;
+}
