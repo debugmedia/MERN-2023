@@ -1,0 +1,24 @@
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.077);
+}
+
+a,
+button {
+  border: none;
+  color: #021b37;
+  font-weight: bold;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+a:hover {
+  border-bottom: 1px solid #021b37;
+}

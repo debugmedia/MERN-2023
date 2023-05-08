@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-repeat: no-repeat;
+  color: rgb(41, 41, 41);
+}
+
+.container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
