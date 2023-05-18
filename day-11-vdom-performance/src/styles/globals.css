@@ -1,0 +1,99 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+html,
+body,
+#root {
+   min-height: 100vh;
+   /* height: 100%; */
+   overflow: auto;
+   color: white;
+}
+
+.container,
+.rerendering-container {
+   background-color: rgb(1, 9, 24);
+   height: 100vh;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+}
+
+button {
+   border: none;
+   background-color: #23ff8d;
+   color: #022007;
+   font-weight: bold;
+   padding: 15px 10px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   margin-right: 10px;
+   border-radius: 6px;
+   cursor: pointer;
+   min-width: 100px;
+   margin-top: 15px;
+}
+
+.counter-container {
+   border-radius: 5px;
+   width: 400px;
+   height: auto;
+   /* margin: auto; */
+   background-color: #21394e;
+   padding: 40px;
+   box-shadow: rgba(0, 0, 0, 0.528) 10px 10px 1px;
+}
+
+.rerendering-container {
+   min-height: 100vh;
+   background-color: rgb(12, 25, 35);
+}
+
+.rerendering-container button {
+   border: none;
+   background-color: #80a4a7;
+   font-size: 20px;
+}
+
+.user {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.usercontainer {
+   max-height: 300px;
+   background-color: #21394e;
+   overflow-y: auto;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.userlist-container {
+   background-color: #21394e;
+   padding: 10px;
+   margin-top: 50px;
+}
+
+.user {
+   padding: 12px;
+}
+
+.btndelete {
+   width: 20px;
+   height: 20px;
+}
+
+h4 {
+   position: absolute;
+   top: 25px;
+   font-size: 20px;
+}
