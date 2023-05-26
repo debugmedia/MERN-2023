@@ -6,7 +6,7 @@ import { IoIosClose } from "react-icons/io";
 import axios from "axios";
 import { postAPI } from "./api";
 
-const API_URL = "https://mern-2023-nhff.vercel.app/api/todo";
+const API_URL = "http://localhost:3005/api/todo";
 
 export const Todo = () => {
   const [todoList, setTodoList] = useState([]);

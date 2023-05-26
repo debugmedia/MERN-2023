@@ -46,7 +46,7 @@ app.post("/api/todo", (req, res) => {
 
    todoList.push(todoItem);
 
-   res.status(200).json(todoList);
+   res.json(todoList);
 });
 
 app.put("/api/todo", (req, res) => {

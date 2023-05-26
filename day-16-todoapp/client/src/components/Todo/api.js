@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://mern-2023-nhff.vercel.app/api/todo";
+const API_URL = "http://localhost:3005/api/todo";
 
 const fetchAPI = async () => {
   const response = await axios(API_URL);
